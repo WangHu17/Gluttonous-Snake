@@ -160,7 +160,7 @@ function stopAndStart(){
 			startGame();
 			startBool = false;
 		}
-		stopBtn.setAttribute('src','images/begin.png');
+		stopBtn.setAttribute('src','./images/begin.png');
 		document.onkeydown = function(e){
 			var code = e.keyCode;
 			setDirect(code);
@@ -170,7 +170,7 @@ function stopAndStart(){
 		},speed);
 		stopBool = false; 
 	}else{
-		stopBtn.setAttribute('src','images/stop.png');
+		stopBtn.setAttribute('src','./images/stop.png');
 		clearInterval(snakeMove);
 		document.onkeydown = function(e){
 			e.returnValue = false;
