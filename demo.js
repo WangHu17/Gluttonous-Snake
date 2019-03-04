@@ -8,7 +8,7 @@ var stopBtn = document.getElementById('stopBtn');
 var startBool = true;
 var stopBool = true;
 var snakeMove;
-var speed = 30;
+var speed = 150;
 init();
 function init() {
 	this.mapWith = parseInt(getComputedStyle(content).width);
