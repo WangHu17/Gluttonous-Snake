@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.play{
+	width: 200px;
+	height: 100px;
+	background-image: url('images/play.png');
+	background-size: 100% 100%;
+	cursor: pointer;
+	z-index: 999;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.interface{
+	width: 100%;
+	height: 100%;
+	background-image: url('images/bg.png');
+	background-size: 100% 100%;
+	position: relative;
+}
+.stopBtn{
+	position: absolute;
+	left: 50px;
+	top: 50px;
+	height: 55px;
+	cursor: pointer;
+	display: none;
+}
+.header{
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	line-height: 120px;
+	font-size: 22px;
+	font-weight: bolder;
+	color: #424242;
+}
+.content{
+	width: 39.5%;
+	height: 43.5%;
+	position: absolute;
+	left: 30%;
+	top: 28.5%;
+}
+.lose{
+	position: 100%;
+	display: none; 
+}
+.con{
+	width: 470px;
+	height: 300px;
+	background-image: url('images/score.png');
+	background-size: 100% 100%;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	line-height: 290px;
+}
+.close{
+	position: absolute;
+	top: 10%;
+	right: 30%;
+	width: 40px;
+	height: 40px;
+	background-image: url(images/close.png);
+	background-size: 100% 100%;
+	cursor: pointer; 
+}
+.score{
+	display: block;
+	margin-left: 210px;
+	font-size: 30px;
+	color: #222;
+	font-weight: bolder;
+}
+.food{
+	background-color: #FF5757;
+	border-radius: 50%;
+}
+.snake{
+	background-image: url('images/snakehead.png');
+	background-size: 100% 110%;
+}
+.body{
+	background-image: url('images/body.png');
+	background-size: 100% 100%;
+}
