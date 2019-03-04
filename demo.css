@@ -23,7 +23,7 @@ html,body{
 .interface{
 	width: 100%;
 	height: 100%;
-	background-image: url('./images/bg.png');
+	background-image: url('./images/bg.jpg');
 	background-size: 100% 100%;
 	position: relative;
 }
@@ -58,7 +58,7 @@ html,body{
 .con{
 	width: 470px;
 	height: 300px;
-	background-image: url('./images/score.png');
+	background-image: url('./images/score.jpg');
 	background-size: 100% 100%;
 	position: absolute;
 	margin: auto;
@@ -74,7 +74,7 @@ html,body{
 	right: 30%;
 	width: 40px;
 	height: 40px;
-	background-image: url('./images/close.png');
+	background-image: url('./images/close.jpg');
 	background-size: 100% 100%;
 	cursor: pointer; 
 }
@@ -90,10 +90,10 @@ html,body{
 	border-radius: 50%;
 }
 .snake{
-	background-image: url('./images/snakehead.png');
+	background-image: url('./images/snakehead.jpg');
 	background-size: 100% 110%;
 }
 .body{
-	background-image: url('./images/body.png');
+	background-image: url('./images/body.jpg');
 	background-size: 100% 100%;
 }
