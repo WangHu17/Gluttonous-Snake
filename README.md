@@ -1,1 +1,2 @@
-### 点击链接查看效果https://soul-silver.github.io/Gluttonous-Snake/
+### 点击链接查看效果
+https://wanghu17.github.io/Gluttonous-Snake/
